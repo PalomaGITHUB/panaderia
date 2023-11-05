@@ -1,0 +1,101 @@
+html,body{ margin: 0; padding: 0;}
+@import url('https://fonts.googleapis.com/css2?family=Sofia+Sans:ital,wght@0,500;1,500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&family=Roboto:wght@100&display=swap');
+
+*{
+    font-family: 'Pacifico', cursive;
+    color:#573b1f
+}
+
+body{background: rgb(227,202,220);
+    background: linear-gradient(90deg, rgba(227,202,220,1) 0%, rgba(254,239,122,1) 100%);}
+#menu{
+width: 100%;
+height: 90px;
+display: flex;
+justify-content: center;
+}
+#menu ul{
+    display: flex;        
+    justify-content: center;
+    margin: 0 auto;
+    list-style-type: none;
+    align-items: flex-end;
+}
+.categorias{
+    text-decoration: none;
+    color:  #573b1f;
+    margin-left: 30px;
+    font-size: 30px;
+    font-family: 'Sofia Sans', sans-serif;
+    text-decoration: none;
+}
+.flag {
+    width: 45px;
+    height: 30px;
+    margin-left: 20px;
+}
+#logo{
+    width: 70px;
+    height: 85px;
+    margin-top: 20px;
+    padding-left: 40px;
+}
+#principal{
+    border-radius: 50px;
+    display: block;
+    margin: auto;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+h2, #texto{
+    font-family: 'Pacifico', cursive;
+    font-size: 30px;
+    text-align: center;
+    color: #573b1f;
+    margin-top: 100px;
+}
+span{
+    opacity: 0%;
+}
+
+footer {
+    text-align: center;
+    padding: 3px;
+    background-color: darksalmon;
+    color: white;
+  }
+#info, #contacto{
+    color:#573b1f;
+    font-family: 'Sofia Sans', sans-serif;
+    text-align: center;
+}
+#footer a{
+    font-family: 'Sofia Sans', sans-serif;
+
+}
+#texto{
+    font-size: 20px;
+    margin: 0 auto;
+    padding-bottom: 20px;
+    font-family: 'Sofia Sans', sans-serif;
+}
+#titulo{
+    font-family: 'Sofia Sans', sans-serif;
+    font-size: 30px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 15px;
+}
+footer a{
+    text-decoration: none;
+}
+#imagen{
+    width: 650px;
+    height: 500px;
+    display:block;
+    margin:auto;
+    padding-bottom: 20px;
+    border-radius: 20px;
+}
